@@ -12,20 +12,18 @@ const Hero = () => {
         </h1>
         <p className="hero__subtitle">
           Streamline your car rental experience with our effortless booking
-          process
+          process.
         </p>
         <CustomButton
           title="Explore Cars"
           containerStyles={"bg-primary-blue text-white rounded-full mt-10"}
-          handleClick={() => {
-            handleScroll;
-          }}
+          handleClick={handleScroll}
         />
       </div>
       <div className="hero__image-container">
         <div className="hero__image">
-          <Image src="/hero.png" alt="hero" fill className="object-conatin" />
-          <div className="hero__image-overlay"></div>
+          <Image src="/hero.png" alt="hero" fill className="object-contain" />
+          <div className="hero__image-overlay" />
         </div>
       </div>
     </div>
